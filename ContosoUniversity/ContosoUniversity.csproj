@@ -149,6 +149,10 @@
     <Compile Include="Migrations\201507090857103_DepartmentSP.Designer.cs">
       <DependentUpon>201507090857103_DepartmentSP.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201507090946204_RowVersion.cs" />
+    <Compile Include="Migrations\201507090946204_RowVersion.Designer.cs">
+      <DependentUpon>201507090946204_RowVersion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Course.cs" />
     <Compile Include="Models\Department.cs" />
@@ -230,6 +234,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201507090857103_DepartmentSP.resx">
       <DependentUpon>201507090857103_DepartmentSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201507090946204_RowVersion.resx">
+      <DependentUpon>201507090946204_RowVersion.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
